@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #CFC8B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-content {
+    background-color: beige;
+    height: 100%;
+    width: 80vw;
+}
+
+/*header*/
+.header {
+    display: block;
+}
+
+.title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.header img {
+    width: 100%;
+    height: 270px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*main*/
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h2, h3, p {
+    margin: 20px;
+}
+
+/* sun */
+.sun img {
+    width: 300px;
+    height: 200px;
+}
+
+.img-flex {
+    position: relative;
+}
+
+.img-flex img {
+    float: right;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+    
+.sun h2 {
+    padding-top: 20px;
+}
+
+/* inner planets*/
+h3 {
+    padding-top: 10px;
+}
+
+.inner-planets h2 {
+    padding-top: 20px;
+}
+
+dl {
+    margin: 20px;
+}
+
+dt {
+    margin-bottom: 10px;
+}
+
+.inner-planets img {
+    width: 200px;
+    height: 100px;
+    float: right;
+    padding-top: 5px;
+}
+
+span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* outer planets*/
+.outer-planets h2 {
+    padding-top: 20px;
+}
+
+.outer-planets img {
+    width: 200px;
+    height: 100px;
+    float: right;
+    padding-top: 5px;
+}
+
+/* footer */
+ol {
+    margin-left: 50px;
+}
+
+.footer h2 {
+    display: inline-block;
+    border-bottom: 3px solid grey;
+}
+
+.footer {
+    margin-bottom: 100px;
+}
+
+/* column */
+.column-start {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -10px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 20px;
+}
