@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Nunito;
+    background-color: #f1ead0;
+}
+
+body>h1 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: #817358;
+    padding-top: 17px;
+    border-bottom: 3px solid #817358;
+}
+
+nav {
+    background-color: #aa9a7b;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    height: 50px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+nav h1 img {
+    width: 45px;
+    height: 25px;
+    margin-top: 19px;
+}
+
+nav ul li img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+nav h1 {
+    font-family: Sigmar;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 1px 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: Nunito;
+    text-decoration: none;
+    color: #574c3d;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+nav ul li a:hover {
+    color: #335C58;
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+nav ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #aa9a7b;
+}
+
+nav ul li:hover .dropdown_menu ul {
+    display: block;
+}
+
+nav ul li:hover .dropdown_menu ul li {
+    width: 130px;
+}
+
+.dropdown_menu ul li a {
+    font-size: 16px;
+}
+
+.start {
+    height: calc(100vh - 45px);
+    background-image: url('the-mandalorian-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.start p {
+    display: block;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 2%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #335C58;
+}
